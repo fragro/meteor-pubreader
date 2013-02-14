@@ -5,6 +5,12 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery', 'client');
   api.add_files([
+		'lib/js/figpopup.js',
+		'lib/js/jquery.hoverIntent.js',
+		'lib/js/rangeinput.js',
+		'lib/js/modernizr.jr.min.js',
+		'lib/js/jquery.touchSwipe.js',
+		'lib/js/jquery.throttle.js',
 		'lib/js/jr.boots.js',
 		'lib/js/jquery.jr.paginationstatus.js',
 		'lib/js/jr.utils.js',
