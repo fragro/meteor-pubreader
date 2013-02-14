@@ -264,7 +264,7 @@ aside {
 }
 
 #jr-content {
-    position:absolute;
+    position:relative;
     overflow: hidden;
     left: 0px;
     right: 0px;
