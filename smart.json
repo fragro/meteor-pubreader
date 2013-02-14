@@ -1,0 +1,9 @@
+{
+  "name": "pubreader",
+  "description": "pubreader - A reader designed to allow increase readability of journal and conference papers produced by NLM",
+  "homepage": "https://github.com/NCBITools/PubReader",
+  "author": "Frank Grove (fragro@gmail.com)",
+  "version": "1.0.1",
+  "git": "https://github.com/fragro/meteor-pubreader",
+  "packages": {}
+}
