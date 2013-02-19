@@ -11,7 +11,6 @@ You must include the following in your client-side code for this to work.
 	}
 
 You must also include a <em>pubreader</em> template, an example of which is located in /lib/template/template.html.
-Be sure to include boilerplate.html in your meteor project as well.
 
 To render the PubReader in Meteor simply call the rendering function. The CSS is designed so
 that Pubreader is attached to the body of the document.
