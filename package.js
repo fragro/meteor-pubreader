@@ -13,6 +13,7 @@ Package.on_use(function (api) {
 		'lib/js/jquery.throttle.js',
 		'lib/js/jr.boots.js',
 		'lib/template/templates.js',
+		'lib/template/template.html',
 		'lib/js/jquery.jr.paginationstatus.js',
 		'lib/js/jr.utils.js',
 		'lib/js/jquery.jr.historykeeper.js',
