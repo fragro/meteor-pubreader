@@ -87,6 +87,7 @@ Package.on_use(function (api) {
 		'lib/js/extensions/TeX/boldsymbol.js',
 		'lib/js/images/CloseX-31.png',
 		'lib/js/images/MenuArrow-15.png',
+		'lib/js/config/default.js',
   ], 'client'
   );
 });
