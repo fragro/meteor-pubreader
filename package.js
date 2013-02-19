@@ -85,8 +85,8 @@ Package.on_use(function (api) {
 		'lib/js/extensions/TeX/bbox.js',
 		'lib/js/extensions/TeX/action.js',
 		'lib/js/extensions/TeX/boldsymbol.js',
-		'lib/images/CloseX-31.png',
-		'lib/images/MenuArrow-15.png',
+		'lib/js/images/CloseX-31.png',
+		'lib/js/images/MenuArrow-15.png',
   ], 'client'
   );
 });
