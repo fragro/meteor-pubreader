@@ -1,5 +1,9 @@
 #Meteor Port of NLM/NCBI PubReader
 
+This is a Meteor port of the NLM/NCBI PubReader designed for the Meteorite package system.
+
+##Usage
+
 You must include the following code in your project for this to work.
 
 	Template.pubreader.rendered = function(){
@@ -15,32 +19,7 @@ that Pubreader is attached to the body of the document.
   		return Template.pubreader(data);
     });
 
-# NLM/NCBI PubReader
-
-This is a suite of Javascript and CSS files for rendering journal articles in a
-PubReader view.
-
-
-## Quick Start
-
-Create a directory that is served by an HTTP server.  Then, from a bash shell with
-that as the current working directory:
-
-    git clone https://github.com/NCBITools/PubReader.git
-    cd test
-    ./make-test-pages.sh
-
-Point your browser to http://<em>location</em>/PubReader/test/test-article.html,
-where _location_ is the domain and path of the repository parent directory, as served
-by your HTTP server.
-
-
-## Feedback
-
-We welcome your feedback, bug reports, and pull requests.  Feedback and bug reports
-can be sent to the
-<a href='http://www.ncbi.nlm.nih.gov/sites/ehelp?&Ncbi_App=pmc&Page=github.pubreader.readme'>PMC
-help desk</a>.
+That's it. Now append the rendered HTML to the body of the document.
 
 ## Public domain notice
 
