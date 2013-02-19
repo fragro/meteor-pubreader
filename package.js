@@ -12,6 +12,7 @@ Package.on_use(function (api) {
 		'lib/js/jquery.touchSwipe.js',
 		'lib/js/jquery.throttle.js',
 		'lib/js/jr.boots.js',
+		'lib/js/config/TeX-AMS-MML_SVG.js',
 		'lib/js/MathJax.js',
 		'lib/template/templates.js',
 		'lib/js/jquery.jr.paginationstatus.js',
@@ -87,7 +88,6 @@ Package.on_use(function (api) {
 		'lib/js/extensions/TeX/boldsymbol.js',
 		'lib/js/images/CloseX-31.png',
 		'lib/js/images/MenuArrow-15.png',
-		'lib/js/config/default.js',
   ], 'client'
   );
 });
