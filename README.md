@@ -1,3 +1,20 @@
+#Meteor Port of NLM/NCBI PubReader
+
+You must include the following code in your project for this to work.
+
+	Template.pubreader.rendered = function(){
+		pubreader();
+	}
+
+You must also include a <em>pubreader</em> template, an example of which is located in /lib/template/template.html
+
+To render the PubReader in Meteor simply call the rendering function. The CSS is designed so
+that Pubreader is attached to the body of the document.
+
+  	var html = Meteor.render(function () {
+  		return Template.pubreader(data);
+    });
+
 # NLM/NCBI PubReader
 
 This is a suite of Javascript and CSS files for rendering journal articles in a
