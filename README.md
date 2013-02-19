@@ -4,13 +4,14 @@ This is a Meteor port of the NLM/NCBI PubReader designed for the Meteorite packa
 
 ##Usage
 
-You must include the following code in your project for this to work.
+You must include the following in your client-side code for this to work.
 
 	Template.pubreader.rendered = function(){
 		pubreader();
 	}
 
-You must also include a <em>pubreader</em> template, an example of which is located in /lib/template/template.html
+You must also include a <em>pubreader</em> template, an example of which is located in /lib/template/template.html.
+Be sure to include boilerplate.html in your meteor project as well.
 
 To render the PubReader in Meteor simply call the rendering function. The CSS is designed so
 that Pubreader is attached to the body of the document.
@@ -19,7 +20,7 @@ that Pubreader is attached to the body of the document.
   		return Template.pubreader(data);
     });
 
-That's it. Now append the rendered HTML to the body of the document.
+That's it. Now append the rendered HTML to the body of the document and witness PubReader in all its glory.
 
 ## Public domain notice
 
