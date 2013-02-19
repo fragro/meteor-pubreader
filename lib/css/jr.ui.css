@@ -148,7 +148,6 @@ div.jr-unsupported table.modal td {
     bottom: 0;
     height: 42pt; /* should match jr-content bottom */
     line-height: 42pt;
-    background-color: white;
     z-index: 500;
 }
 
