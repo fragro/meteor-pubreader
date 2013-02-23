@@ -17,7 +17,7 @@
 
 /*** definitions necessary for User Interface elements to be positioned on the screen ***/
 
-#jr {
+html, body, #jr {
     height: 100%; 
     width:100%; 
     overflow:hidden; 
