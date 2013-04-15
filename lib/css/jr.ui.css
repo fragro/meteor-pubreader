@@ -489,8 +489,11 @@ iframe::-webkit-scrollbar-thumb:hover,
     background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 55%); /* IE10+ */
     background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 55%); /* W3C */
 }
+/* 
+** Button **
 
-/*** Button ***/
+OFFLINE DUE TO CONFLICTS
+
 a.btn svg {
     width: 100%;
     height: 100%;
@@ -559,7 +562,7 @@ a.btn.on {
 }
 
 nav, aside, a.btn, .noselect {
-    /* Prevent any object from being highlighted upon touch event*/
+    Prevent any object from being highlighted upon touch event
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -567,7 +570,7 @@ nav, aside, a.btn, .noselect {
     user-select: none;
     -webkit-touch-callout: none;
 }
-/* back button */
+back button
 
 .tb.sk-htbar a.btn {
     font: 12pt/24pt "Archivo Narrow", "Arial Narrow", Calibri, "Trebuchet MS", ArialMT, Arial, sans-serif;
@@ -582,11 +585,11 @@ nav, aside, a.btn, .noselect {
     box-shadow: 0 -1px 0 rgba(0,0,0,0.8)inset, 0 1px 0 rgba(0,0,0,0.2)inset;
 }
 
-/* button link */
+button link
 a.btn.link {
     border-color: transparent;
     padding: 0;
-}
+} */
 /*** Typography settings set with typography panel  ***/
 
 /* font sizes */
